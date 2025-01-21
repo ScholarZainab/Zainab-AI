@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- chatbot.html -->
+<div class="chatbot-container">
+    <div class="chat-window">
+      <!-- Messages will be displayed here -->
+    </div>
+    <input type="text" placeholder="Type a message..." />
+  </div>
+  </body>
+  </html>
+  <style>
+    .chatbot-container {
+      width: 300px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .chat-window {
+      max-height: 300px;
+      overflow-y: auto;
+      margin-bottom: 10px;
+    }
+    .message {
+      padding: 5px;
+      border-bottom: 1px solid #eee;
+    }
+    input[type="text"] {
+      width: calc(100% - 20px);
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  </style>
+
+  
