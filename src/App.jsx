@@ -5,7 +5,7 @@ import ChatMessage from "./components/ChatMessage";
 import { companyInfo } from "./companyInfo";
 const App = () => {
   const chatBodyRef = useRef();
-  const [showChatbot, setShowChatbot] = useState(false);
+  const [showChatbot, setShowChatbot] = useState(true);
   const [chatHistory, setChatHistory] = useState([
     {
       hideInChat: true,
